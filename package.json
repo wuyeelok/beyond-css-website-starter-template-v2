@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "vite --port 11479",
     "build": "vite build",
-    "preview": "vite preview --port 17946"
+    "preview": "vite preview --port 17946",
+    "build-netlify": "vite build --base=/",
+    "preview-netlify": "vite preview --base=/ --port 17947"
   },
   "devDependencies": {
     "sass": "^1.72.0",
